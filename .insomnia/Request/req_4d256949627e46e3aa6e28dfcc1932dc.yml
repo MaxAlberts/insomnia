@@ -1,23 +1,23 @@
-_id: req_8ff68f4916b74d79802c5c9639799f01
+_id: req_4d256949627e46e3aa6e28dfcc1932dc
 type: Request
 parentId: wrk_34d1cf90344c46299cb19a83bb796ab0
-modified: 1655723291982
-created: 1653216406013
-url: http://localhost:1337/api/logo
-name: Logo
+modified: 1655723255734
+created: 1655722750110
+url: http://localhost:1337/api/band
+name: Get Band
 description: ""
 method: GET
 body: {}
 parameters:
-  - id: pair_d5fffa7cd01a406cae927d45003f3932
+  - id: pair_97de8d1964fa4a0db2acbf7c61e62975
     name: populate
-    value: logo
+    value: "*"
     description: ""
 headers: []
 authentication:
   type: bearer
   token: "{{ _.authentication }}"
-metaSortKey: -1653216406013
+metaSortKey: -1655722750110
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
