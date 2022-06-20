@@ -1,0 +1,32 @@
+_id: req_8ff68f4916b74d79802c5c9639799f01
+type: Request
+parentId: wrk_34d1cf90344c46299cb19a83bb796ab0
+modified: 1655722551914
+created: 1653216406013
+url: http://localhost:1337/api/logo
+name: Logo
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_9eff237d45164f8c979f58b92b7574cf
+    name: populate
+    value: band_members
+    description: ""
+    disabled: true
+  - id: pair_d5fffa7cd01a406cae927d45003f3932
+    name: populate
+    value: logo
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: 795a72bd49899e053b48015b1c839f16d343ffed39274577a2a33b1944a55d4c289699e0e755a5f28ff71ea8f7eb8d8f218abdfb8763c8f028253ef6dc27e51989e7dbe54d49146f4e87921e1cd455eacc8745ee5ee762035b56b65513dedd82b2b3f93e91bafde9c3a540cbd1ceb7ab5bd745a75ec3c3636a445c3d022c8c0f
+metaSortKey: -1653216406013
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
